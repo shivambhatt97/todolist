@@ -1,0 +1,208 @@
+body{
+  margin:0;
+  font-family: sans-serif;
+  background-color: #152733;
+}
+section.top-class {
+  width: 50%;
+  border: 2px solid white;
+  margin: 40px;
+  position: relative;
+  left: 22%;
+
+}
+.loop-content {
+  width: 88%;
+}
+
+.singleTask {
+    position: relative;
+    border: 1px solid white;
+    /* width: 50%; */
+    height: 90px;
+    color: white;
+    left: 5%;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+input.delechack {
+    margin: 15px;
+}
+
+.catesec {
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+.todoheading{
+  color:white;
+  text-align: center;
+  margin-top: 20px;
+  /* margin-bottom: 50px; */
+}
+.todoheading h1 {
+  font-size: 35px;
+  font-weight: 800;
+}
+.form_class {
+  /* width: 50%; */
+  text-align: center;
+  /* position: relative;
+  left: 25%; */
+}
+
+.desc_Class input {
+  height: 50px;
+  width: 80%;
+  margin: 15px;
+  transition: transform 0.3s;
+  text-align: center;
+  border-radius: 22px;
+  outline: none;
+  font-size: 15px;
+
+}
+
+.desc_Class input:hover {
+  box-shadow: 0px 0px 5px 2px white;
+  background-color: bisque;
+}
+
+.select_and_input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.select_and_input select {
+  height: 45px;
+  width: 38%;
+  transition: transform 0.3s;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-size: 15px;
+
+}
+
+.select_and_input input{
+  height: 45px;
+  width: 38%;
+  text-align: center;
+  transition: transform 0.3s;
+  border-radius: 30px;
+  font-size: 15px;
+
+}
+.select_and_input select:hover{
+  box-shadow: 0px 0px 5px 2px white ;
+  background-color: bisque;
+}
+.select_and_input input:hover{
+  box-shadow: 0px 0px 5px 2px white ;
+  background-color: bisque;
+}
+
+.dateValues{
+  transition: transform 0.3s;
+}
+
+/* design for button */
+.buttonDesign{
+  height: 50px;
+  width: 120px;
+  color: white;
+  transition: transform 0.3s;
+}
+.buttonDesign:hover{
+  box-shadow: 0px 0px 5px 2px white ; 
+  transform:scale(1.1);
+}
+.colorRed{
+  background-color: red;
+  
+}
+
+.colorGrey{
+  background-color: gray;
+}
+.commonClass{
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding: 6px;
+  border-radius: 33px;
+  font-size: 13px;
+  color: white;
+  transition: transform 0.3s;
+}
+.commonClass:hover{
+  box-shadow: 0px 0px 5px 2px rgb(14, 6, 6) ; 
+  transform:scale(1.2);
+}
+/* design for edit sction */
+.editClass{
+      transition: transform 0.3s;
+      position: absolute;
+      left: 80%;
+      margin: 20px;
+}
+.editClass:hover{
+  box-shadow: 0px 0px 5px 2px rgb(14, 6, 6) ; 
+  transform:scale(1.2);
+}
+
+.editClass a{
+text-decoration: none;
+color: white;
+border: 1px solid  white;
+padding: 4px;
+background-color: brown;
+}
+/* for placing placeholder in the center  */
+input[type="textarea"]::placeholder { 
+                
+  /* Firefox, Chrome, Opera */
+  text-align: center;
+}
+/* design for EDIT button*/
+.edit-button{
+  margin-top: 10px;
+  height: 30px;
+  width: 90px;
+  background-color: brown;
+  color: white;
+}
+
+input.delechack{
+  width: 17px;
+  height: 17px;
+}
+
+/* Design for different category */
+.work{
+  background-color:lightcoral;
+      
+}
+.Personal{
+  background-color: skyblue;
+
+}
+.Claeaning{
+  background-color: green;
+}
+.Otheres{
+  background-color: teal;
+}
+.name_and_dueDate{
+  height: auto;
+  width: 200px;
+}
+.dueDate{
+  width: fit-content;
+}
+.color-white{
+  color: white;
+}
